@@ -52,6 +52,10 @@ else:
 # LISTAS
 l1 = [1, 2, 3, "Numero", 0]
 
+l1.append(32)  #asi se agregan elemtos a la lista con 'append(nuevo dato)'
+l1.pop()  #asi sacamos el ultimo elemento de la lista con 'pop'
+
+
 for a in l1:  # Recorremos la lista con un for
     print(a)
 
