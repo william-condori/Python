@@ -19,7 +19,7 @@ def obtenerX1(a, b, c):
 
 def obtenerX2(a, b, c):
     try:
-        x2 = (-b-((b**2)-4*a*c)**(1/2))/(2*a)
+        x2 = (-b+((b**2)-4*a*c)**(1/2))/(2*a)
         mostrarX2(x2)
     except ZeroDivisionError:
         print('No se puede dividir por cero')
